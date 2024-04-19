@@ -7,7 +7,7 @@ I created this repository to host both the source code of the application and al
 - Installed kubectl to control the minikube cluster
 - Installed Argo CD in the cluster using official documentation
 - Installed Argo Rollouts in the cluster 
-![alt text](https://github.com/TejaJanakiRam/DevOpsArgoCD/blob/main/argocd.png?raw=true)
+![alt text](https://github.com/TejaJanakiRam/DevOpsArgoCD/blob/main/resources/argocd.png)
 # Task 2:
 ## Dockerize the application:
 - First created a simple web application using Flask and python
