@@ -16,4 +16,4 @@ spec:
       - name: myapp
         image: tejdocker32/argocd
         ports:
-        - containerPort: 8080
+        - containerPort: 80
