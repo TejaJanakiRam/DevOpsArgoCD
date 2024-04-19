@@ -37,3 +37,5 @@ I created this repository to host both the source code of the application and al
 # Clean Up
 - docker prune/ docker rmi commands help with removing any untagged or older versions of images
 - If we use the automatic syncing option for argoCD, we can opt the 'Prune resources' option to remove any unwanted resources in the cluster.
+
+## I myself am the contributor 'AttackTitan3012' along with 'TejaJanakiRam'. Because of some glitch, GitHub is making my push changes with my old account name which is Attacktitan3012.
