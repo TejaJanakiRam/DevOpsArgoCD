@@ -33,3 +33,7 @@ I created this repository to host both the source code of the application and al
 - Solution: Decided to go with NodePort as it is less complicated
 - Had trouble working with argo rollouts as there are limited resources about it.
 - Solution: Had to workout the solution though a punishing trial-and-error series.
+
+# Clean Up
+- docker prune/ docker rmi commands help with removing any untagged or older versions of images
+- If we use the automatic syncing option for argoCD, we can opt the 'Prune resources' option to remove any unwanted resources in the cluster.
