@@ -1,18 +1,18 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: myapp-argo-application
-  namespace: argocd
+  name: myapp-argo-rollout-application
+  namespace: argo-rollouts
 spec:
   project: default
 
   source:
     repoURL: https://github.com/TejaJanakiRam/DevOpsArgoCD
     targetRevision: HEAD
-    path: deployment
+    path: rollout
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: rollouts-demo
 
   syncPolicy:
     syncOptions:
